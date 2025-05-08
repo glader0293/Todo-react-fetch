@@ -9,3 +9,21 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+body{
+    background: rgb(206, 206, 206);
+}
+ul li{
+    border: 1px solid grey;
+    padding: 10px;
+    list-style: none;
+}
+input{
+    border: none;
+    padding: 5px;
+    width: 100%;
+}
+.container-box{
+ width: 50%;
+}
