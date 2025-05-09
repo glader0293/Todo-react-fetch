@@ -21,7 +21,7 @@ const Home = () => {
 				<ul className="p-0">
 					
 						<input type="text"
-								className="border-bottom px-3 py-2"
+								className=" px-3 py-2"
 								onChange={(e) => setInputValue(e.target.value)}
 								value= {inputValue}
 								onKeyPress = {(e)=> {
