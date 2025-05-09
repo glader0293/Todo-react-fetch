@@ -12,18 +12,62 @@
 
 
 body{
-    background: rgb(206, 206, 206);
+    background: rgb(8, 8, 8);
+    
 }
-ul li{
-    border: 1px solid grey;
-    padding: 10px;
+ul{
+    margin: 0px;
     list-style: none;
+    border-bottom: 1px solid rgb(245, 245, 245);
+    font-size: 20px;
+    color: grey;
+    width: 100%;
+}
+li{
+    padding: 10px;
 }
 input{
     border: none;
-    padding: 5px;
     width: 100%;
+    outline: none;
+
+    border-bottom: 1px solid rgb(245, 245, 245);
+    color: grey;
 }
 .container-box{
- width: 50%;
+  width: 70%;
+
+  margin-bottom: 100%;
+ 
+
+}
+.icon{
+    border-top: 1px solid rgb(245, 245, 245);
+    border-bottom: 1px solid rgb(245, 245, 245);
+    padding: 10px 10px;
+    list-style: none;
+    width: 100%;
+}
+.icon-hidden{
+    display:none;
+}
+.hover-item:hover .icon-hidden{
+    display:inline-block;
+}
+.icon-color{
+    color: rgba(255, 0, 0, 0.481);
+}
+.icon-color:hover {
+    color: red;
+}
+span{
+   font-size: smaller;
+   color: rgb(155, 153, 153);
+}
+h1{
+    font-size:100px;
+    color:rgba(165, 42, 42, 0.181);
+    font-weight: 200;
+    font-family: "'Work Sans', sans-serif", 
+
 }
