@@ -124,7 +124,7 @@ const Home = () => {
 					
 					{todos.map((item,index) => (
 							<div className="d-flex align-items-center justify-content-between icon hover-item p-0">
-								<li className="px-3 py-2">{item.label} id:{item.id}</li> 
+								<li className="px-3 py-2">{item.label}</li> 
 								<FontAwesomeIcon className="icon-hidden icon-color px-3 py-2" 
 								onClick={()=> deleteTask(item.id)}
 								icon={faX} size="2xs" />
