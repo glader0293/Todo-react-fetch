@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faX } from '@fortawesome/free-solid-svg-icons'
 import "@fontsource/work-sans/300.css"; 
-import ApiTest from "./ApiTest"
+
 
 
 // css
@@ -123,7 +123,7 @@ const Home = () => {
 					
 					
 					{todos.map((item,index) => (
-							<div className="d-flex align-items-center justify-content-between icon hover-item p-0">
+							<div key ={item.id}className="d-flex align-items-center justify-content-between icon hover-item p-0">
 								<li className="px-3 py-2">{item.label}</li> 
 								<FontAwesomeIcon className="icon-hidden icon-color px-3 py-2" 
 								onClick={()=> deleteTask(item.id)}
